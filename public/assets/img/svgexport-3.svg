@@ -1,0 +1,74 @@
+<svg xmlns:mydata="http://www.w3.org/2000/svg" mydata:contrastcolor="11111f" mydata:template="Contrast"
+     mydata:presentation="2.5" mydata:layouttype="undefined" mydata:specialfontid="undefined" mydata:id1="670"
+     mydata:id2="218" mydata:companyname="Bros Coffee" mydata:companytagline="" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height: 460px;"
+     viewBox="0 0 550 470" width="550" height="470">
+    <g fill="#78D64B" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+       stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+       font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+        <g data-paper-data="{&quot;isGlobalGroup&quot;:true,&quot;bounds&quot;:{&quot;x&quot;:65,&quot;y&quot;:205.23558705228885,&quot;width&quot;:420,&quot;height&quot;:59.5288258954223}}"
+           fill="#78D64B">
+            <g data-paper-data="{&quot;isPrimaryText&quot;:true}" id="element-id-98775" fill="#78D64B">
+                <path
+                    d="M65,262.91419h11.18177c9.17066,0 21.23731,-3.29822 21.23731,-15.52576c0,-6.91821 -4.26355,-12.54932 -13.27332,-14.23865c5.30933,-1.04578 12.30799,-5.38977 12.30799,-13.51465c0,-7.32044 -6.75733,-13.03199 -18.42176,-13.03199h-13.03199v0.40222h1.28711c1.68933,0 2.81555,1.12622 2.81555,2.81555v49.8755c0,1.68933 -1.12622,2.81555 -2.81555,2.81555h-1.28711zM73.68799,261.86842v-28.15553c13.03199,0.08044 18.26087,6.75733 18.26087,13.99732c0,12.1471 -8.04444,14.15821 -16.65198,14.15821zM76.58399,207.32714c6.27466,0.24133 14.39954,3.37866 14.39954,13.67554c0,8.84888 -6.59644,11.98621 -12.62976,11.98621h-4.66577v-25.66175z"
+                    data-paper-data="{&quot;glyphName&quot;:&quot;B&quot;,&quot;glyphIndex&quot;:0,&quot;firstGlyphOfWord&quot;:true,&quot;word&quot;:1}"
+                    fill="#FFFFFF" id="element-id-39202"></path>
+                <path
+                    d="M139.73281,230.41467c0,12.62976 9.00977,22.04175 20.83509,22.04175c13.35376,0 24.45509,-12.06665 24.45509,-25.74219c0,-12.1471 -8.76844,-21.47864 -21.47864,-21.47864c-14.56043,0 -23.81153,12.30799 -23.81153,25.17908zM161.45279,207.40758c11.58399,0 20.6742,10.85999 20.6742,21.88087c0,10.6991 -8.44666,20.27198 -18.90442,20.27198c-10.85999,0 -20.51331,-10.37732 -20.51331,-22.1222c0,-10.77954 8.04444,-20.03065 18.74354,-20.03065zM101.92396,262.51197v0.40222h12.79065v-0.40222h-1.28711c-1.68933,0 -2.81555,-1.12622 -2.81555,-2.81555v-23.24842h6.51599c5.30933,17.45643 18.82398,28.31641 37.32618,28.31641c10.29688,0 20.27198,-3.37866 28.95997,-10.29688h-0.40222c-8.20532,5.22888 -15.60621,8.04444 -25.42042,8.04444c-12.1471,0 -29.60352,-4.50488 -35.7173,-26.54664c6.3551,-1.448 13.51465,-6.03333 13.51465,-14.64087c0,-9.81421 -9.57288,-14.72132 -18.01954,-14.72132h-15.44532v0.40222h1.28711c1.68933,0 2.81555,1.12622 2.81555,2.81555v49.8755c0,1.68933 -1.12622,2.81555 -2.81555,2.81555zM114.31239,207.32714c5.47022,0.24133 15.76709,3.37866 15.76709,14.88221c0,8.5271 -5.71155,13.35376 -13.99732,13.35376h-5.47022v-28.23597z"
+                    data-paper-data="{&quot;glyphName&quot;:&quot;&quot;,&quot;glyphIndex&quot;:1,&quot;word&quot;:1}"
+                    fill="#FFFFFF" id="element-id-31179"></path>
+                <path
+                    d="M210.60429,205.23559c-14.39954,0 -19.38709,8.20532 -19.38709,15.92798c0,3.53955 1.04578,7.32044 5.22888,11.10132c1.52844,1.36755 3.37866,2.65466 5.87244,4.50488c4.90711,3.62 11.58399,7.88355 11.58399,15.12354c0,7.0791 -6.43555,9.49243 -10.77954,9.49243c-4.18311,0 -8.60755,-2.172 -10.6991,-4.02222l-2.896,3.78088c3.13733,1.76978 6.83777,3.13733 10.45777,3.13733c5.79199,0 16.41065,-3.53955 16.41065,-15.28443c0,-7.56177 -4.344,-12.22754 -12.1471,-17.13465c-7.48133,-4.58533 -10.45777,-8.20532 -10.45777,-13.5951c0,-7.96399 6.43555,-10.6991 10.77954,-10.6991c2.73511,0 5.79199,1.04578 7.56177,2.172l0.40222,-0.24133z"
+                    data-paper-data="{&quot;glyphName&quot;:&quot;S&quot;,&quot;glyphIndex&quot;:2,&quot;lastGlyphOfWord&quot;:true,&quot;word&quot;:1}"
+                    fill="#FFFFFF" id="element-id-33286"></path>
+                <path
+                    d="M291.04865,251.16932c-3.86133,5.38977 -13.11243,10.37732 -20.99598,10.37732c-14.88221,0 -27.91419,-12.46888 -27.91419,-28.79908c0,-13.19287 10.85999,-24.69642 25.09864,-24.69642c8.92932,0 16.81287,4.58533 20.83509,9.33155h0.40222l1.12622,-5.47022c-4.98755,-3.45911 -10.21643,-6.67688 -18.82398,-6.67688c-18.82398,0 -32.25819,15.28443 -32.25819,32.17774c0,16.00843 11.98621,26.86842 27.7533,26.86842c11.34265,0 20.91553,-6.67688 25.50086,-13.11243z"
+                    data-paper-data="{&quot;glyphName&quot;:&quot;C&quot;,&quot;glyphIndex&quot;:3,&quot;firstGlyphOfWord&quot;:true,&quot;word&quot;:2}"
+                    fill="#FFFFFF" id="element-id-8468"></path>
+                <path
+                    d="M294.5882,237.41333c0,16.00843 11.98621,26.86842 27.51197,26.86842c17.93909,0 32.74085,-14.39954 32.74085,-32.01686c0,-15.68665 -11.66443,-27.0293 -27.91419,-27.0293c-18.90442,0 -32.33863,15.28443 -32.33863,32.17774zM323.62862,208.05114c15.84754,0 28.23597,13.51465 28.23597,28.07508c0,14.07776 -11.50354,25.42042 -25.74219,25.42042c-14.88221,0 -27.91419,-12.46888 -27.91419,-27.91419c0,-14.07776 10.85999,-25.58131 25.42042,-25.58131z"
+                    data-paper-data="{&quot;glyphName&quot;:&quot;O&quot;,&quot;glyphIndex&quot;:4,&quot;word&quot;:2}"
+                    fill="#FFFFFF" id="element-id-46569"></path>
+                <path
+                    d="M359.66769,207.00536h1.28711c1.68933,0 2.81555,1.12622 2.81555,2.81555v49.8755c0,1.68933 -1.12622,2.81555 -2.81555,2.81555h-1.28711v0.40222h12.79065v-0.40222h-1.28711c-1.68933,0 -2.81555,-1.12622 -2.81555,-2.81555v-27.99464h13.75599c1.68933,0 2.41333,1.04578 1.76978,2.65466l-0.08044,0.24133h0.24133l2.33289,-4.50488h-18.01954v-21.71998h15.12354c1.68933,0 3.53955,0.88489 4.58533,2.172l2.33289,2.81555h0.32178l-2.01111,-6.75733h-29.04041z"
+                    data-paper-data="{&quot;glyphName&quot;:&quot;F&quot;,&quot;glyphIndex&quot;:5,&quot;word&quot;:2}"
+                    fill="#FFFFFF" id="element-id-2108"></path>
+                <path
+                    d="M403.50986,262.91419v-0.40222h-1.28711c-1.68933,0 -2.81555,-1.12622 -2.81555,-2.81555v-27.99464h8.92932c1.68933,0 2.41333,1.04578 1.76978,2.65466l-0.08044,0.24133h0.24133l2.33289,-4.50488h-13.19287v-21.71998h38.4524c1.68933,0 3.53955,0.88489 4.58533,2.172l2.33289,2.81555h0.32178l-2.01111,-6.75733h-52.36928v0.40222h1.28711c1.68933,0 2.81555,1.12622 2.81555,2.81555v49.8755c0,1.68933 -1.12622,2.81555 -2.81555,2.81555h-1.28711v0.40222zM414.85252,262.91419h25.42042l4.42444,-6.3551h-0.32178l-2.41333,1.93066c-2.01111,1.76978 -5.38977,2.97644 -8.12488,2.97644h-11.98621v-23.65064h10.13599c2.09155,0 3.05689,0.64355 4.02222,1.52844l0.80444,0.80444h0.32178l-1.52844,-3.62h-13.75599v-17.53687h13.43421c1.36755,0 2.896,0.80444 3.70044,1.76978l1.85022,2.33289h0.32178l-1.68933,-5.47022h-24.61597v0.40222h0.96533c1.448,0 2.33289,0.88489 2.33289,2.25244v40.06129c0,1.36755 -0.88489,2.172 -2.33289,2.172h-0.96533z"
+                    data-paper-data="{&quot;glyphName&quot;:&quot;&quot;,&quot;glyphIndex&quot;:6,&quot;word&quot;:2}"
+                    fill="#FFFFFF" id="element-id-82312"></path>
+                <path
+                    d="M447.83471,262.91419h31.53419l5.63111,-7.96399h-0.40222l-2.97644,2.49378c-2.57422,2.172 -6.75733,3.70044 -10.13599,3.70044h-14.96265v-29.44264h12.71021c2.49378,0 3.70044,0.80444 4.90711,1.93066l1.04578,0.96533h0.40222l-2.01111,-4.50488h-17.0542v-21.71998h16.73243c1.68933,0 3.53955,0.88489 4.58533,2.172l2.33289,2.81555h0.32178l-2.01111,-6.75733h-30.6493v0.40222h1.28711c0.16089,0 0.32178,0 0.48267,0c1.448,0.24133 2.33289,1.36755 2.33289,2.81555v49.8755c0,1.68933 -1.12622,2.81555 -2.81555,2.81555h-1.28711z"
+                    data-paper-data="{&quot;glyphName&quot;:&quot;E&quot;,&quot;glyphIndex&quot;:7,&quot;lastGlyphOfWord&quot;:true,&quot;word&quot;:2}"
+                    fill="#FFFFFF" id="element-id-96469"></path>
+            </g>
+        </g>
+    </g>
+    <rect data-element-id="element-id-98775" stroke-width="2px" fill="#000000"
+          class="invisible-element-box grouping-element" x="65" y="205" width="420" height="60"
+          data-element-name="isPrimaryText" fill-opacity="0"></rect>
+    <rect data-element-id="element-id-31179" stroke-width="2px" fill="#000000"
+          class="invisible-element-box individual-element" x="102" y="205" width="83" height="60"
+          fill-opacity="0"></rect>
+    <rect data-element-id="element-id-46569" stroke-width="2px" fill="#000000"
+          class="invisible-element-box individual-element" x="295" y="205" width="60" height="59"
+          fill-opacity="0"></rect>
+    <rect data-element-id="element-id-8468" stroke-width="2px" fill="#000000"
+          class="invisible-element-box individual-element" x="239" y="205" width="53" height="59"
+          fill-opacity="0"></rect>
+    <rect data-element-id="element-id-82312" stroke-width="2px" fill="#000000"
+          class="invisible-element-box individual-element" x="391" y="207" width="54" height="56"
+          fill-opacity="0"></rect>
+    <rect data-element-id="element-id-96469" stroke-width="2px" fill="#000000"
+          class="invisible-element-box individual-element" x="448" y="207" width="37" height="56"
+          fill-opacity="0"></rect>
+    <rect data-element-id="element-id-39202" stroke-width="2px" fill="#000000"
+          class="invisible-element-box individual-element" x="65" y="207" width="32" height="56"
+          fill-opacity="0"></rect>
+    <rect data-element-id="element-id-2108" stroke-width="2px" fill="#000000"
+          class="invisible-element-box individual-element" x="360" y="207" width="31" height="56"
+          fill-opacity="0"></rect>
+    <rect data-element-id="element-id-33286" stroke-width="2px" fill="#000000"
+          class="invisible-element-box individual-element" x="190" y="205" width="27" height="59"
+          fill-opacity="0"></rect>
+</svg>
