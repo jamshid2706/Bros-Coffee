@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 @section('content')
-    <h2 class="intro-y text-lg font-medium mt-5">Dessert</h2>
-    @include('admin.dessert.create')
+    <h2 class="intro-y text-lg font-medium mt-5">Events</h2>
+    @include('admin.events.create')
     <div id="Content" class="grid grid-cols-12 gap-6 mt-5">
         @foreach($eventss as $key => $events)
             <div

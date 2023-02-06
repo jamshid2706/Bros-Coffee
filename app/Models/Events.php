@@ -11,4 +11,13 @@ class Events extends Model
     use HasFactory;
     use SoftDeletes;
 
+    protected $fillable = [
+      'title',
+      'description',
+      'image'
+    ];
+
+    public function events() {
+        return $this->hasMany(Events::class, 'category_id', 'id');
+    }
 }

@@ -1,46 +1,40 @@
 <?php
 
-namespace App\Http\Controllers\admin;
+namespace App\Http\Controllers\events;
 
 use App\Http\Controllers\Controller;
+use App\Models\Dessert;
 use App\Models\Events;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 
 class EventsController extends Controller
 {
-    public function index()
-    {
-        $categories = Events::all();
-        $products = Events::all();
-        $eventss = Events::all();
-        return view('admin.events.index', compact('categories', 'products', 'eventss'));
+    public function index(){
+        $events = Events::all();
+
+        return view('admin.events.index', compact('events'));
     }
 
-    public function store(Request $request)
-    {
+    public function create(){
+    }
+
+    public function store(Request $request){
         $data = $request->all();
         $data['image'] = Storage::put('/image/', $data['image']);
         Events::create($data);
         return redirect()->back();
     }
 
-    public function destroy($id)
-    {
-        Events::destroy($id);
-        return redirect()->route('admin.events');
-    }
-
     public function edit(Request $request, $id)
     {
-
         $data = $request->all();
         $product = Events::find($id);
         $product->update($data);
-        return redirect()->back();
+        return redirect()->route('admin.events');
     }
 
-    public function destroyproduct($id)
+    public function destroy($id)
     {
         Events::destroy($id);
         return redirect()->route('admin.events');
