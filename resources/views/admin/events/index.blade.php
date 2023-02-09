@@ -58,36 +58,21 @@
                                                 <label class="flex flex-col w-full h-56 border-4 border-dashed dropzone"
                                                        style="cursor: pointer">
                                                     <div class="flex flex-col items-center justify-center pt-7">
-                                                        <img src="{{asset('storage/'.$events->image)}}" alt=""
-                                                             id="preview"
-                                                             class="w-60 h-40 text-gray-400 group-hover:text-gray-600">
+                                                        <img src="{{asset('storage/'.$events->image)}}" alt="" id="preview" class="w-60 h-40 text-gray-400 group-hover:text-gray-600">
                                                     </div>
-                                                    <input type="file" class="opacity-0 fallback"
-                                                           name="image" accept="image/*" id="image"/>
+                                                    <input type="file" class="opacity-0 fallback" name="image" accept="image/*" id="image"/>
                                                 </label>
                                             </div>
 
                                             <div class="mt-3">
                                                 <label for="title" class="form-label">Title</label>
-                                                <input id="title" type="text" name="title" class="form-control"
-                                                       placeholder="Product Title"
-                                                       value="{{ old('title', $events->title) }}" required>
+                                                <input id="title" type="text" name="title" class="form-control" placeholder="Product Title" value="{{ old('title', $events->title) }}" required>
                                             </div>
                                             <div class="intro-y col-span-12 sm:col-span-6 mt-3">
-                                                <label for="description"
-                                                       class="form-label w-full flex flex-col sm:flex-row">
-                                                    Description
-                                                    <span
-                                                        class="sm:ml-auto mt-1 sm:mt-0 text-xs text-slate-500">Required, at least 5 characters</span>
-                                                </label>
-                                                <textarea id="description" class="form-control" name="description"
-                                                          placeholder="Type your comments"
-                                                          minlength="5">{{$events->description}}</textarea>
+                                                <label for="description" class="form-label w-full flex flex-col sm:flex-row">Description<span class="sm:ml-auto mt-1 sm:mt-0 text-xs text-slate-500">Required, at least 5 characters</span></label>
+                                                <textarea id="description" class="form-control" name="description" placeholder="Type your comments" minlength="5">{{$events->description}}</textarea>
                                             </div>
-                                            <button type="button" data-tw-dismiss="modal"
-                                                    class="btn btn-outline-secondary w-24 mr-1 mt-4">
-                                                Cancel
-                                            </button>
+                                            <button type="button" data-tw-dismiss="modal" class="btn btn-outline-secondary w-24 mr-1 mt-4">Cancel</button>
                                             <button type="submit" class="btn btn-primary w-24 text-">Ok</button>
                                         </form>
                                     </div>

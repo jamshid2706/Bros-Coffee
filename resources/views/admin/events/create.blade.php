@@ -27,7 +27,15 @@
                                 <input name="title" id="title" type="text" class="form-control" placeholder="Title">
                             </div>
                             <div>
-                                <label for="description" class="form-label">Description</label>
+                                <label for="price" class="form-label">Price</label>
+                                <input name="price" id="price" type="text" class="form-control" placeholder="Price">
+                            </div>
+                            <div>
+                                <label for="description" class="form-label">Description-1</label>
+                                <textarea name="description" id="description" class="form-control" rows="3"></textarea>
+                            </div>
+                            <div>
+                                <label for="description" class="form-label">Description-2</label>
                                 <textarea name="description" id="description" class="form-control" rows="3"></textarea>
                             </div>
                             <a class="btn btn-secondary mt-5 w-24 mr-2" data-tw-dismiss="modal">Cancel</a>
