@@ -19,9 +19,6 @@
                                 {{ ucwords($food->title) ?? '' }}
                             </div>
                             <div class="flex items-center my-2">
-                                Price: {{ ucwords($food->price) ?? '' }}
-                            </div>
-                            <div class="flex items-center my-2">
                                 Receipt: {{ $food->receipt ?? '' }}
                             </div>
                         </div>

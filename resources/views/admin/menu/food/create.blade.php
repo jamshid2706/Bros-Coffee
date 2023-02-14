@@ -18,10 +18,6 @@
                         <label for="modal-form-1" class="form-label">Title</label>
                         <input name="title" id="modal-form-1" type="text" class="form-control" placeholder="Title    ">
                     </div>
-                    <div class="col-span-12 sm:col-span-6">
-                        <label for="modal-form-2" class="form-label">Price</label>
-                        <input name="price" id="modal-form-2" type="text" class="form-control" placeholder="Price">
-                    </div>
                     <div class="col-span-12 sm:col-span-12">
                         <label for="category_id" class="form-label mt-3">Category</label>
                         <select class="tom-select w-full" id="category_id" name="category_id">

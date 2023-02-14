@@ -21,7 +21,7 @@
                 @foreach($category->foods as $food)
                     <div class="col-lg-6 menu-item filter-{{ str_replace(' ', '_', strtolower($category->title)) }}">
                         <div class="menu-content">
-                            <a href="#">{{ $food->title }}</a><span>${{$food->price}}</span>
+                            <a href="#">{{ $food->title }}</a>
                         </div>
                         <div class="menu-ingredients">
                             {{ $food->receipt }}
