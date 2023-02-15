@@ -64,7 +64,7 @@ Route::group(['namespace'=>'admin', 'prefix'=>'admin','middleware' => ['auth']],
         });
     });
     Route::group(['prefix'=>'events'], function () {
-        Route::group(['prefix'=>'events'], function () {
+        Route::group(['prefix'=>'events-slider'], function () {
             Route::get('/', [EventsController::class , 'index'])->name('admin.events');
             Route::post('/store', [EventsController::class, 'store'])->name('admin.events.store');
             Route::post('/{id}/edit', [EventsController::class, 'edit'])->name('admin.events.edit');
