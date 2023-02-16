@@ -1,7 +1,7 @@
 <!-- BEGIN: Modal Toggle -->
 <div class="my-4">
     <a href="javascript:;" data-tw-toggle="modal" data-tw-target="#static-backdrop-modal-preview"
-       class="btn btn-primary">Add Events</a>
+       class="btn btn-primary">Add About</a>
 </div>
 <!-- END: Modal Toggle -->
 
@@ -11,7 +11,7 @@
         <div class="modal-content">
             <div class="modal-body px-5 py-10">
                 <div class="text-left">
-                    <form action="{{ route('admin.events.store') }}" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('admin.about.store') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <div class="upload__box">
                             <div class="upload__btn-box">

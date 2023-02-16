@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\AboutController;
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\EventsController;
 use App\Http\Controllers\admin\FoodCategoryController;
@@ -7,6 +8,7 @@ use App\Http\Controllers\admin\FoodController;
 use App\Http\Controllers\admin\HeaderController;
 use App\Http\Controllers\dessert\DessertController;
 use App\Http\Controllers\menu\MenuController;
+use App\Models\About;
 use App\Models\Dessert;
 use App\Models\Events;
 use App\Models\FoodCategory;
@@ -21,6 +23,7 @@ Route::get('/', function () {
     $categories = FoodCategory::all();
     $desserts = Dessert::all();
     $events = Events::all();
+    $about = About::all();
     return view('front.index', compact('sliderItems', 'toggle', 'categories', 'desserts'));
 });
 
@@ -69,6 +72,14 @@ Route::group(['namespace'=>'admin', 'prefix'=>'admin','middleware' => ['auth']],
             Route::post('/store', [EventsController::class, 'store'])->name('admin.events.store');
             Route::post('/{id}/edit', [EventsController::class, 'edit'])->name('admin.events.edit');
             Route::delete('/{id}', [EventsController::class, 'destroy'])->name('admin.events.delete');
+        });
+    });
+    Route::group(['prefix'=>'about'], function () {
+        Route::group(['prefix'=>'aboutus'], function () {
+            Route::get('/', [AboutController::class , 'index'])->name('admin.about');
+            Route::post('/store', [AboutController::class, 'store'])->name('admin.about.store');
+            Route::post('/{id}/edit', [AboutController::class, 'edit'])->name('admin.about.edit');
+            Route::delete('/{id}', [AboutController::class, 'destroy'])->name('admin.about.delete');
         });
     });
 });

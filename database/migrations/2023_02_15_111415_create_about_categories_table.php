@@ -15,7 +15,12 @@ return new class extends Migration
     {
         Schema::create('about_categories', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->string('image');
+            $table->string('subtitle')->nullable();
+            $table->longText('description');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

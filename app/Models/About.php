@@ -13,6 +13,12 @@ class About extends Model
 
     protected $fillable = [
         'title',
-        'description'
+        'description',
+        'image'
     ];
+
+    public function about()
+    {
+        return $this->hasMany(About::class, 'category_id', 'id');
+    }
 }
