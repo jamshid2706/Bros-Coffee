@@ -35,7 +35,7 @@
 
     <ul>
         <li>
-            <a href="javascript:;" class="side-menu side-menu{{ request()->is('admin/events/*') ? '--active' : ''}}">
+            <a href="javascript:;" class="side-menu side-menu{{ request()->is('admin/about/*') ? '--active' : ''}}">
                 <div class="side-menu__icon">
                     {{--ICON--}}
                 </div>
@@ -50,9 +50,9 @@
                     </div>
                 </div>
             </a>
-            <ul class="{{ request()->is("admin/events/") || request()->is("admin/events/*") ? "side-menu__sub-open" : "" }}" {{ request()->is("admin/zipper/") || request()->is("admin/zipper/*") ? 'style="display: none;"' : "" }}>
+            <ul class="{{ request()->is("admin/about/") || request()->is("admin/about/*") ? "side-menu__sub-open" : "" }}" {{ request()->is("admin/zipper/") || request()->is("admin/zipper/*") ? 'style="display: none;"' : "" }}>
                 <li>
-                    <a href="{{ route('admin.events') }}" class="side-menu">
+                    <a href="{{ route('admin.about') }}" class="side-menu">
                         <div class="side-menu__icon">
                             <i data-lucide="bar-chart"></i>
                         </div>
@@ -184,7 +184,7 @@
 
     <ul>
         <li>
-            <a href="javascript:;" class="side-menu side-menu{{ request()->is('admin/events/*') ? '--active' : ''}}">
+            <a href="javascript:;" class="side-menu side-menu{{ request()->is('admin/chiefs/*') ? '--active' : ''}}">
                 <div class="side-menu__icon">
                     {{--ICON--}}
                 </div>
@@ -199,9 +199,9 @@
                     </div>
                 </div>
             </a>
-            <ul class="{{ request()->is("admin/events/") || request()->is("admin/events/*") ? "side-menu__sub-open" : "" }}" {{ request()->is("admin/zipper/") || request()->is("admin/zipper/*") ? 'style="display: none;"' : "" }}>
+            <ul class="{{ request()->is("admin/chiefs/") || request()->is("admin/chiefs/*") ? "side-menu__sub-open" : "" }}" {{ request()->is("admin/zipper/") || request()->is("admin/zipper/*") ? 'style="display: none;"' : "" }}>
                 <li>
-                    <a href="{{ route('admin.events') }}" class="side-menu">
+                    <a href="{{ route('admin.chiefs') }}" class="side-menu">
                         <div class="side-menu__icon">
                             <i data-lucide="bookmark"></i>
                         </div>

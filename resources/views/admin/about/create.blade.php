@@ -27,10 +27,6 @@
                                 <input name="title" id="title" type="text" class="form-control" placeholder="Title">
                             </div>
                             <div>
-                                <label for="price" class="form-label">Price</label>
-                                <input name="price" id="price" type="text" class="form-control" placeholder="Price">
-                            </div>
-                            <div>
                                 <label for="description" class="form-label">Description</label>
                                 <textarea name="description" id="description" class="form-control" rows="3"></textarea>
                             </div>
@@ -44,3 +40,19 @@
 </div>
 </div>
 <!-- END: Modal Content -->
+@section('scripts')
+    <script>
+
+
+        import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
+
+        $(".about").each(function () {
+            const el = this;
+            ClassicEditor.create(el).catch((error) => {
+                console.error(error);
+            });
+        });
+
+
+    </script>
+@endsection

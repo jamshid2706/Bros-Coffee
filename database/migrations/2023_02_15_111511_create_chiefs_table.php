@@ -15,7 +15,11 @@ return new class extends Migration
     {
         Schema::create('chiefs', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->string('image');
+            $table->longText('description');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

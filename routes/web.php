@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\admin\AboutController;
+use App\Http\Controllers\admin\ChiefsController;
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\EventsController;
 use App\Http\Controllers\admin\FoodCategoryController;
@@ -23,7 +24,6 @@ Route::get('/', function () {
     $categories = FoodCategory::all();
     $desserts = Dessert::all();
     $events = Events::all();
-    $about = About::all();
     return view('front.index', compact('sliderItems', 'toggle', 'categories', 'desserts'));
 });
 
@@ -80,6 +80,14 @@ Route::group(['namespace'=>'admin', 'prefix'=>'admin','middleware' => ['auth']],
             Route::post('/store', [AboutController::class, 'store'])->name('admin.about.store');
             Route::post('/{id}/edit', [AboutController::class, 'edit'])->name('admin.about.edit');
             Route::delete('/{id}', [AboutController::class, 'destroy'])->name('admin.about.delete');
+        });
+    });
+    Route::group(['prefix'=>'chiefs'], function () {
+        Route::group(['prefix'=>'user'], function () {
+            Route::get('/', [ChiefsController::class , 'index'])->name('admin.chiefs');
+            Route::post('/store', [ChiefsController::class, 'store'])->name('admin.chiefs.store');
+            Route::post('/{id}/edit', [ChiefsController::class, 'edit'])->name('admin.chiefs.edit');
+            Route::delete('/{id}', [ChiefsController::class, 'destroy'])->name('admin.chiefs.delete');
         });
     });
 });

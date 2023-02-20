@@ -15,4 +15,9 @@ class Chiefs extends Model
         'title',
         'description'
     ];
+
+    public function chiefs()
+    {
+        return $this->hasMany(Chiefs::class, 'category_id', 'id');
+    }
 }
