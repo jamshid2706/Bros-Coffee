@@ -216,7 +216,7 @@
 
     <ul>
         <li>
-            <a href="javascript:;" class="side-menu side-menu{{ request()->is('admin/events/*') ? '--active' : ''}}">
+            <a href="javascript:;" class="side-menu side-menu{{ request()->is('admin/gallery/*') ? '--active' : ''}}">
                 <div class="side-menu__icon">
                     {{--ICON--}}
                 </div>
@@ -231,9 +231,9 @@
                     </div>
                 </div>
             </a>
-            <ul class="{{ request()->is("admin/events/") || request()->is("admin/events/*") ? "side-menu__sub-open" : "" }}" {{ request()->is("admin/zipper/") || request()->is("admin/zipper/*") ? 'style="display: none;"' : "" }}>
+            <ul class="{{ request()->is("admin/gallery/") || request()->is("admin/gallery/*") ? "side-menu__sub-open" : "" }}" {{ request()->is("admin/zipper/") || request()->is("admin/zipper/*") ? 'style="display: none;"' : "" }}>
                 <li>
-                    <a href="{{ route('admin.events') }}" class="side-menu">
+                    <a href="{{ route('admin.gallery') }}" class="side-menu">
                         <div class="side-menu__icon">
                             <i data-lucide="image"></i>
                         </div>

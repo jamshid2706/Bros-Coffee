@@ -6,6 +6,7 @@ use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\EventsController;
 use App\Http\Controllers\admin\FoodCategoryController;
 use App\Http\Controllers\admin\FoodController;
+use App\Http\Controllers\admin\GalleryController;
 use App\Http\Controllers\admin\HeaderController;
 use App\Http\Controllers\dessert\DessertController;
 use App\Http\Controllers\menu\MenuController;
@@ -89,6 +90,11 @@ Route::group(['namespace'=>'admin', 'prefix'=>'admin','middleware' => ['auth']],
             Route::post('/{id}/edit', [ChiefsController::class, 'edit'])->name('admin.chiefs.edit');
             Route::delete('/{id}', [ChiefsController::class, 'destroy'])->name('admin.chiefs.delete');
         });
+    });
+    Route::group(['prefix'=>'gallery'], function (){
+        Route::get('/', [GalleryController::class, 'index'])->name('admin.gallery');
+        Route::post('/store', [GalleryController::class, 'store'])->name('admin.gallery.store');
+        Route::delete('/{id}', [GalleryController::class, 'destroy'])->name('admin.gallery.delete');
     });
 });
 
